@@ -13,7 +13,7 @@ class TestCalc(unittest.TestCase):
         result = calc.add2(1, 2)
         self.assertEqual(result, 3)
 
-    def test_add_floats(self):
+    ef test_add_floats(self):
         """
         Test that the addition of two floats returns the correct result
         """
@@ -26,7 +26,7 @@ class TestCalc(unittest.TestCase):
         concatenated string
         """
         result = calc.add2('abc', 'def')
-        self.assertEqual(result, 'def')
+        self.assertEqual(result, 'abcdef')
 
     def test_add_string_and_integer(self):
         """
